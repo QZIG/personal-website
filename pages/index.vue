@@ -42,20 +42,20 @@
     <section>
       <Title text="Compétences" />
       <div class="mt-8 max-w-screen-md">
-        <Skillbar label="VueJS / NuxtJS" color="green" :value="90" />
-        <Skillbar label="NodeJS / ExpressJS" color="orange" :value="70" />
-        <Skillbar label="ReactJS / Redux / Redux-Thunk / React-Native" color="blue" :value="80" />
-        <Skillbar label="Wordpress / Spip / Symfony 3&4" color="red" :value="60" />
-        <Skillbar label="Firebase / Strapi / Prismic" color="yellow" :value="85" />
-        <Skillbar label="MySQL / PostgreSQL / NoSQL" color="pink" :value="70" />
+        <Skillbar label="VueJS / NuxtJS" color="bg-green-400" buttonColor="bg-green-700" :value="90" />
+        <Skillbar label="NodeJS / ExpressJS" color="bg-orange-400" buttonColor="bg-orange-700" :value="70" />
+        <Skillbar label="ReactJS / Redux / Redux-Thunk / React-Native" color="bg-blue-400" buttonColor="bg-bg-700" :value="80" />
+        <Skillbar label="Wordpress / Spip / Symfony 3&4" color="bg-red-400" buttonColor="bg-red-700" :value="60" />
+        <Skillbar label="Firebase / Strapi / Prismic" color="bg-yellow-400" buttonColor="bg-yellow-700" :value="85" />
+        <Skillbar label="MySQL / PostgreSQL / NoSQL" color="bg-pink-400" buttonColor="bg-pink-700" :value="70" />
       </div>
     </section>
 
     <section>
       <Title text="Langues" />
       <div class="mt-8 flex flex-col items-center md:flex-row md:justify-evenly">
-        <Skilllang class="mb-8 md:mb-0" :value="100" color="primary" label="français" />
-        <Skilllang :value="66" color="green-500" label="anglais" />
+        <Skilllang class="mb-8 md:mb-0" :value="100" color="text-primary" label="français" />
+        <Skilllang :value="66" color="text-green-500" label="anglais" />
       </div>
     </section>
 
@@ -63,7 +63,7 @@
       <Title text="Loisirs" />
       <div class="mt-8 md:flex justify-between items-center">
 
-        <Loisir class="md:mr-2 mb-8 md:mb-0" title="e-sport" image="esport" :opacity="25" />
+        <Loisir class="md:mr-2 mb-8 md:mb-0" title="e-sport" image="esport" opacity="bg-opacity-25" />
         
         <Loisir class="md:ml-2" title="voyages" image="voyages" />
 

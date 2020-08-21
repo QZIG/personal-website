@@ -2,7 +2,7 @@
   <div class="relative" :style="`width: ${size}px; height: ${size}px;`">
     <svg xmlns="http://www.w3.org/2000/svg" :width="size" :height="size" viewBox="0 0 50 50">
       <circle cy="25" cx="25" r="22" stroke-width="6" stroke="#ffffff" :fill="bgcolor"></circle>
-      <circle :class="`stroke-current text-${color}`" transform="rotate(-90) translate(-50 0)" cy="25" cx="25" r="22" :stroke-dasharray="value * 1.39" stroke-width="6"  :fill="'none'"></circle>
+      <circle :class="`stroke-current ${color}`" transform="rotate(-90) translate(-50 0)" cy="25" cx="25" r="22" :stroke-dasharray="value * 1.39" stroke-width="6"  :fill="'none'"></circle>
     </svg>
     <div class="absolute inset-0 flex justify-center items-center">
       <span class="uppercase font-bold text-white text-xl">{{label}}</span>
@@ -27,7 +27,7 @@ export default {
     },
     color: {
       type: String,
-      default: 'black'
+      default: 'text-black'
     },
     bgcolor: {
       type: String,

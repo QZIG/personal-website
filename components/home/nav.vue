@@ -15,12 +15,6 @@
   </nav>
 </template>
 
-<script>
-export default {
-  
-}
-</script>
-
 <style lang="css" scoped>
 /* @media screen and (min-width: 768px) {
   li {

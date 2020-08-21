@@ -4,7 +4,7 @@
       <div class="absolute inset-0">
         <img class="h-full w-full" :src="`/images/${image}.jpg`" :alt="`image ${title}`">
       </div>
-      <div :class="`absolute inset-0 flex justify-center items-center bg-black bg-opacity-${opacity}`">
+      <div :class="`absolute inset-0 flex justify-center items-center bg-black ${opacity}`">
         <span class="text-white text-3xl font-bold uppercase text-center">{{title}}</span>
       </div>
     </div>
@@ -17,8 +17,8 @@ export default {
     title: String,
     image: String,
     opacity: {
-      type: Number,
-      default: 50
+      type: String,
+      default: 'bg-opacity-50'
     }
   }
 }

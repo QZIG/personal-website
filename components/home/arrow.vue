@@ -1,5 +1,5 @@
 <template>
-  <svg :class="`stroke-current text-${color}`" :style="`width: ${size}px; height: ${size}px; `" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <svg :class="`stroke-current ${color}`" :style="`width: ${size}px; height: ${size}px; `" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
     <g transform="translate(-928 -369)">
       <g transform="translate(928 369)" fill="none" :stroke-width="strokeSize">
         <circle cx="32" cy="32" r="32" stroke="none"/>
@@ -19,7 +19,7 @@ export default {
     },
     color: {
       type: String,
-      default: "black"
+      default: "text-black"
     },
     strokeSize: {
       type: Number,

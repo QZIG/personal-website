@@ -12,7 +12,7 @@
       <h2 class="z-10 text-center text-2xl md:text-4xl font-bold">DEVELOPPEUR FREELANCE</h2>
     </div>
     <div class="container container-p absolute inset-x-0 bottom-0 flex justify-center">
-      <Arrow :size="50" color="primary" />
+      <Arrow :size="50" color="text-primary" />
     </div>
     
   </header>
