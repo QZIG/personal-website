@@ -2,7 +2,10 @@
   <div class="w-full mx-auto md:mx-0" style="max-width: 500px;">
     <div class="relative w-full"  style="padding-top: 75%;">
       <div class="absolute inset-0">
-        <img class="h-full w-full" :src="image" :alt="`image ${title}`">
+        <div
+          class="h-full w-full bg-no-repeat bg-cover bg-center"
+          :style="`background-image: url(${image})`"
+        />
       </div>
       <div :class="`absolute inset-0 flex justify-center items-center bg-black ${opacity}`">
         <span class="text-white text-3xl font-bold uppercase text-center">{{title}}</span>
