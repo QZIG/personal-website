@@ -7,7 +7,7 @@
           :lazy-background="image"
         />
       </div>
-      <div :class="`absolute inset-0 flex justify-center items-center bg-black ${opacity}`">
+      <div :class="`absolute inset-0 flex justify-center items-center bg-black bg-opacity-50`">
         <span class="text-white text-3xl font-bold uppercase text-center">{{title}}</span>
       </div>
     </div>
@@ -18,11 +18,7 @@
 export default {
   props: {
     title: String,
-    image: String,
-    opacity: {
-      type: String,
-      default: 'bg-opacity-50'
-    }
+    image: String
   }
 }
 </script>

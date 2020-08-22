@@ -63,7 +63,7 @@
       <Title text="Loisirs" />
       <div class="mt-8 md:flex justify-between items-center">
 
-        <Loisir class="md:mr-2 mb-8 md:mb-0" title="e-sport" image="https://res.cloudinary.com/qzig/image/upload/w_500,f_auto/v1598084044/personal-website/esport_jt8phs.jpg" opacity="bg-opacity-25" />
+        <Loisir class="md:mr-2 mb-8 md:mb-0" title="e-sport" image="https://res.cloudinary.com/qzig/image/upload/w_500,f_auto/v1598084044/personal-website/esport_jt8phs.jpg" />
         
         <Loisir class="md:ml-2" title="voyages" image="https://res.cloudinary.com/qzig/image/upload/w_500,f_auto/v1598084044/personal-website/voyages_mzyqoy.jpg" />
 
