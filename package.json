@@ -1,6 +1,6 @@
 {
   "name": "personal-website",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -9,7 +9,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.14.0"
+    "nuxt": "^2.14.0",
+    "nuxt-lazy-load": "^1.2.4"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^2.1.0"

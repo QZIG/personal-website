@@ -4,7 +4,7 @@
       <div class="absolute inset-0">
         <div
           class="h-full w-full bg-no-repeat bg-cover bg-center"
-          :style="`background-image: url(${image})`"
+          :lazy-background="image"
         />
       </div>
       <div :class="`absolute inset-0 flex justify-center items-center bg-black ${opacity}`">

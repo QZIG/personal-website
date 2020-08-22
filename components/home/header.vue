@@ -3,7 +3,8 @@
     <div class="absolute inset-x-0 top-0 h-full flex justify-center">
       <div
         class="h-full w-full bg-no-repeat bg-contain bg-center opacity-25"
-        style="max-width: 640px; background-image: url(https://res.cloudinary.com/qzig/image/upload/w_640,f_auto/v1598084043/personal-website/technology-1283624_640_ehp1la.jpg)"
+        style="max-width: 640px;"
+        lazy-background="https://res.cloudinary.com/qzig/image/upload/w_640,f_auto/v1598084043/personal-website/technology-1283624_640_ehp1la.jpg"
       />
     </div>
     <Nav />
