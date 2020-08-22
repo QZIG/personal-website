@@ -35,7 +35,7 @@
         </ul>
       </div>
       <div id="me" class="hidden md:block">
-        <img src="/images/me.png" alt="ma photo">
+        <img src="https://res.cloudinary.com/qzig/image/upload/w_400,f_auto/v1598084044/personal-website/me_yszxq0.png" alt="ma photo">
       </div>
     </section>
 
@@ -63,17 +63,17 @@
       <Title text="Loisirs" />
       <div class="mt-8 md:flex justify-between items-center">
 
-        <Loisir class="md:mr-2 mb-8 md:mb-0" title="e-sport" image="esport" opacity="bg-opacity-25" />
+        <Loisir class="md:mr-2 mb-8 md:mb-0" title="e-sport" image="https://res.cloudinary.com/qzig/image/upload/w_500,f_auto/v1598084044/personal-website/esport_jt8phs.jpg" opacity="bg-opacity-25" />
         
-        <Loisir class="md:ml-2" title="voyages" image="voyages" />
+        <Loisir class="md:ml-2" title="voyages" image="https://res.cloudinary.com/qzig/image/upload/w_500,f_auto/v1598084044/personal-website/voyages_mzyqoy.jpg" />
 
       </div>
 
       <div class="mt-8 md:flex justify-between items-center">
 
-        <Loisir class="md:mr-2 mb-8 md:mb-0" image="gastronomie" title="gastronomie du monde" />
+        <Loisir class="md:mr-2 mb-8 md:mb-0" title="gastronomie du monde" image="https://res.cloudinary.com/qzig/image/upload/w_500,f_auto/v1598084044/personal-website/gastronomie_sgk6qi.jpg" />
         
-        <Loisir class="md:ml-2" title="bd" image="bd" />
+        <Loisir class="md:ml-2" title="bd" image="https://res.cloudinary.com/qzig/image/upload/w_500,f_auto/v1598084044/personal-website/bd_t7m10x.jpg" />
 
       </div>
     </section>

@@ -3,7 +3,7 @@
     <div class="absolute inset-x-0 top-0 h-full flex justify-center">
       <img
         class="z-0 opacity-25"
-        src="/images/technology-1283624_640.jpg"
+        src="https://res.cloudinary.com/qzig/image/upload/w_640,f_auto/v1598084043/personal-website/technology-1283624_640_ehp1la.jpg"
         alt="image background technology"
       >
     </div>
