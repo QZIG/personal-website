@@ -34,7 +34,7 @@
           </a></li>
         </ul>
       </div>
-      <div id="me" class="hidden md:block">
+      <div id="me" class="hidden md:flex justify-center items-center -mt-16" style="min-width: 300px;">
         <img src="https://res.cloudinary.com/qzig/image/upload/w_400,f_auto/v1598084044/personal-website/me_yszxq0.png" alt="ma photo">
       </div>
     </section>
@@ -91,21 +91,6 @@ export default {
         content: 'My personal website !'
       }
     ]
-  },
-  mounted () {
-    const me = document.getElementById('me')
-    const addMargin = () => {
-      if (window.innerWidth > 767 && window.innerWidth < 1014) {
-        const i = ((1014 - window.innerWidth) * 100) / (1014 - 767)
-        me.style.marginTop = Math.floor(i) + 'px'
-      } else me.style.marginTop = '-1.5rem'
-    }
-    window.onload = () => {
-      addMargin()
-    }
-    window.onresize = () => {
-      addMargin()
-    }
   }
 }
 </script>
