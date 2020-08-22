@@ -17,19 +17,19 @@
         </p>
       
         <ul>
-          <li><Polygone />Email&nbsp;: <a href="mailto:xaviercochennec@gmail.com">xaviercochennec@gmail.com</a></li>
-          <li><Polygone />Téléphone&nbsp;: <a>+33 6 75 72 77 02</a></li>
-          <li><Polygone />Codeur.com&nbsp;: <a href="https://www.codeur.com/-xavier_cochennec" target="_blank">codeur.com/&dash;xavier_cochennec</a></li>
+          <li><Polygone />Email&nbsp;: <a href="mailto:xaviercochennec@gmail.com" rel="noreferrer">xaviercochennec@gmail.com</a></li>
+          <li><Polygone />Téléphone&nbsp;: <a href="tel:+33675727702" rel="noreferrer">+33 6 75 72 77 02</a></li>
+          <li><Polygone />Codeur.com&nbsp;: <a href="https://www.codeur.com/-xavier_cochennec" target="_blank" rel="noreferrer">codeur.com/&dash;xavier_cochennec</a></li>
         </ul>
 
         <ul class="rs flex items-center">
-          <li><a href="https://twitter.com/PEC_QZIG" target="_blank">
+          <li><a href="https://twitter.com/PEC_QZIG" target="_blank" rel="noreferrer">
             <img src="~assets/logos/Twitter_Social_Icon_Rounded_Square_Color.png" width="25" alt="logo twitter">
           </a></li>
-          <li><a href="https://github.com/QZIG" target="_blank">
+          <li><a href="https://github.com/QZIG" target="_blank" rel="noreferrer">
             <img src="~assets/logos/GitHub-Mark-32px.png" width="25" alt="logo github">
           </a></li>
-          <li><a href="https://www.linkedin.com/in/xavier-cochennec-49b679a7/" target="_blank">
+          <li><a href="https://www.linkedin.com/in/xavier-cochennec-49b679a7/" target="_blank" rel="noreferrer">
             <img src="~assets/logos/LI-In-Bug.png" width="25" alt="logo linkedin">
           </a></li>
         </ul>
@@ -119,5 +119,8 @@ li {
 }
 .rs li {
   @apply mr-2;
+}
+a {
+  @apply text-secondary;
 }
 </style>
