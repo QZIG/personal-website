@@ -13,6 +13,8 @@
     "nuxt-lazy-load": "^1.2.4"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^2.1.0"
+    "@nuxtjs/tailwindcss": "^2.1.0",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.0.0"
   }
 }

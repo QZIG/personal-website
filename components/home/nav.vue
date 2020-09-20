@@ -1,18 +1,20 @@
-<template>
-  <nav class="container-p absolute w-full md:flex justify-between">
-    <div class="text-2xl">
-      <h1><span class="font-bold">XAVIER</span> COCHENNEC</h1>
-      <div class="h-1 w-16 bg-primary rounded-sm"></div>
-    </div>
+<template lang="pug">
+  nav(class="container-p absolute w-full md:flex justify-between")
+    div.text-2xl
+      h1
+        span.font-bold XAVIER
+        |
+        | COCHENNEC
 
-    <!-- <ul class="hidden md:block">
-      <li><div>
-        <span>Accueil</span>
-        <div class="h-1 w-14 bg-primary rounded-sm"></div>
-      </div></li>
-      <li>Exemple</li>
-    </ul> -->
-  </nav>
+      div(class="h-1 w-16 bg-primary rounded-sm")
+
+    //- <ul class="hidden md:block">
+    //-   <li><div>
+    //-     <span>Accueil</span>
+    //-     <div class="h-1 w-14 bg-primary rounded-sm"></div>
+    //-   </div></li>
+    //-   <li>Exemple</li>
+    //- </ul>
 </template>
 
 <style lang="css" scoped>

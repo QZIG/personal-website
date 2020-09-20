@@ -1,12 +1,12 @@
-<template>
-  <div class="mb-5">
-    <p class="my-3 font-bold">{{label}}</p>
-    <div class="w-full h-4 bg-gray-400 rounded-lg">
-      <div :class="`h-full rounded-lg flex justify-end items-center ${color}`" :style="`width: ${value}%`">
-        <div :class="`rounded-full h-12 w-12 ${color}`"></div>
-      </div>
-    </div>
-  </div>
+<template lang="pug">
+  div.mb-5
+    p.my-3.font-bold {{label}}
+
+    div(class="w-full h-4 bg-gray-400 rounded-lg")
+
+      div(:class="`h-full rounded-lg flex justify-end items-center ${color}`" :style="`width: ${value}%`")
+      
+        div(:class="`rounded-full h-12 w-12 ${color}`")
 </template>
 
 <script>
