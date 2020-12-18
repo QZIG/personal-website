@@ -101,11 +101,6 @@ export default {
     return {
       rs: [
         {
-          url: "https://twitter.com/PEC_QZIG",
-          img: require("../assets/logos/Twitter_Social_Icon_Rounded_Square_Color.png"),
-          alt: "logo twitter"
-        },
-        {
           url: "https://github.com/QZIG",
           img: require("../assets/logos/GitHub-Mark-32px.png"),
           alt: "logo github"
