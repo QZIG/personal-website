@@ -23,9 +23,6 @@
         </ul>
 
         <ul class="rs flex items-center">
-          <li><a href="https://twitter.com/PEC_QZIG" target="_blank" rel="noreferrer">
-            <img src="~assets/logos/Twitter_Social_Icon_Rounded_Square_Color.png" width="25" alt="logo twitter">
-          </a></li>
           <li><a href="https://github.com/QZIG" target="_blank" rel="noreferrer">
             <img src="~assets/logos/GitHub-Mark-32px.png" width="25" alt="logo github">
           </a></li>
