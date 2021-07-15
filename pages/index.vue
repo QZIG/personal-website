@@ -19,7 +19,6 @@
         <ul>
           <li><Polygone />Email&nbsp;: <a href="mailto:xaviercochennec@gmail.com" rel="noreferrer">xaviercochennec@gmail.com</a></li>
           <li><Polygone />Téléphone&nbsp;: <a href="tel:+33675727702" rel="noreferrer">+33 6 75 72 77 02</a></li>
-          <li><Polygone />Codeur.com&nbsp;: <a href="https://www.codeur.com/-xavier_cochennec" target="_blank" rel="noreferrer">codeur.com/&dash;xavier_cochennec</a></li>
         </ul>
 
         <ul class="rs flex items-center">
@@ -28,6 +27,13 @@
           </a></li>
           <li><a href="https://www.linkedin.com/in/xavier-cochennec-49b679a7/" target="_blank" rel="noreferrer">
             <img src="~assets/logos/LI-In-Bug.png" width="25" alt="logo linkedin">
+          </a></li>
+        </ul>
+
+        <ul>
+          <li><Polygone />Projet sur la blockchain Solana&nbsp;: <a href="https://alupicoin.com" target="_blank" rel="noreferrer">alupicoin.com</a></li>
+          <li><a href="https://github.com/alupicoin" target="_blank" rel="noreferrer">
+            <img src="~assets/logos/GitHub-Mark-32px.png" width="25" alt="logo github">
           </a></li>
         </ul>
       </div>
@@ -41,10 +47,11 @@
       <div class="mt-8 max-w-screen-md">
         <Skillbar label="VueJS / NuxtJS" color="bg-green-400" buttonColor="bg-green-700" :value="90" />
         <Skillbar label="NodeJS / ExpressJS / NestJS" color="bg-orange-400" buttonColor="bg-orange-700" :value="70" />
-        <Skillbar label="ReactJS / Redux / Redux-Thunk / React-Native" color="bg-blue-400" buttonColor="bg-bg-700" :value="80" />
+        <Skillbar label="ReactJS / Redux / Redux-Thunk / React-Native" color="bg-blue-400" buttonColor="bg-blue-700" :value="80" />
         <Skillbar label="Wordpress / Spip / Symfony 3&4" color="bg-red-400" buttonColor="bg-red-700" :value="60" />
         <Skillbar label="Firebase / Strapi / Prismic" color="bg-yellow-400" buttonColor="bg-yellow-700" :value="85" />
         <Skillbar label="MySQL / PostgreSQL / NoSQL" color="bg-pink-400" buttonColor="bg-pink-700" :value="70" />
+        <Skillbar label="Python / Flask / Django / FastAPI" color="bg-purple-400" buttonColor="bg-purple-700" :value="50" />
       </div>
     </section>
 
@@ -60,7 +67,7 @@
       <Title text="Loisirs" />
       <div class="mt-8 md:flex justify-between items-center">
 
-        <Loisir class="md:mr-2 mb-8 md:mb-0" title="e-sport" image="https://res.cloudinary.com/qzig/image/upload/w_500,f_auto/v1598084044/personal-website/esport_jt8phs.jpg" />
+        <Loisir class="md:mr-2 mb-8 md:mb-0" title="esport" image="https://res.cloudinary.com/qzig/image/upload/w_500,f_auto/v1598084044/personal-website/esport_jt8phs.jpg" />
         
         <Loisir class="md:ml-2" title="voyages" image="https://res.cloudinary.com/qzig/image/upload/w_500,f_auto/v1598084044/personal-website/voyages_mzyqoy.jpg" />
 
