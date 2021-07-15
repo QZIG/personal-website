@@ -4,21 +4,13 @@
 ** Docs: https://tailwindcss.com/docs/configuration
 ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
 */
-const primary = '#11B5E9'
-const secondary = '#00607e'
 module.exports = {
   theme: {
     extend: {
-      textColor: theme => ({
-        primary: primary,
-        secondary: secondary
-      }),
-      backgroundColor: theme => ({
-        primary: primary,
-      }),
-      borderColor: theme => ({
-        primary: primary,
-      }),
+      colors: {
+        'primary': '#11B5E9',
+        'secondary': '#00607e'
+      },
       height: {
         'custom-header': '22rem'
       }
