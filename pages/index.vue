@@ -19,6 +19,7 @@
         <ul>
           <li><Polygone />Email&nbsp;: <a href="mailto:xaviercochennec@gmail.com" rel="noreferrer">xaviercochennec@gmail.com</a></li>
           <li><Polygone />Téléphone&nbsp;: <a href="tel:+33675727702" rel="noreferrer">+33 6 75 72 77 02</a></li>
+          <li><Polygone />Projet sur la blockchain Solana&nbsp;: <a href="https://alupicoin.com" target="_blank" rel="noreferrer">alupicoin.com</a></li>
         </ul>
 
         <ul class="rs flex items-center">
@@ -28,10 +29,7 @@
           <li><a href="https://www.linkedin.com/in/xavier-cochennec-49b679a7/" target="_blank" rel="noreferrer">
             <img src="~assets/logos/LI-In-Bug.png" width="25" alt="logo linkedin">
           </a></li>
-        </ul>
-
-        <ul>
-          <li><Polygone />Projet sur la blockchain Solana&nbsp;: <a href="https://alupicoin.com" target="_blank" rel="noreferrer">alupicoin.com</a></li>
+          <li>/</li>
           <li><a href="https://github.com/alupicoin" target="_blank" rel="noreferrer">
             <img src="~assets/logos/GitHub-Mark-32px.png" width="25" alt="logo github">
           </a></li>
