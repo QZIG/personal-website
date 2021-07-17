@@ -26,7 +26,7 @@
           <li><a href="https://github.com/QZIG" target="_blank" rel="noreferrer">
             <img src="~assets/logos/GitHub-Mark-32px.png" width="25" alt="logo github">
           </a></li>
-          <li><a href="https://www.linkedin.com/in/xavier-cochennec-49b679a7/" target="_blank" rel="noreferrer">
+          <li><a href="https://www.linkedin.com/in/xavier-cochennec/" target="_blank" rel="noreferrer">
             <img src="~assets/logos/LI-In-Bug.png" width="25" alt="logo linkedin">
           </a></li>
           <li>/</li>
